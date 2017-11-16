@@ -1,0 +1,70 @@
+
+a{
+	color: black;
+}
+a:hover{
+	color: #ffbc2d;
+	cursor: pointer;
+}
+nav{
+	background-color: #f9aa43;
+	font-family: 'Khand', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 65px;
+}
+#buffer1,#buffer2,#buffer3{
+	height: 60px;
+}
+header{
+	margin-top: 5%;
+}
+#aboutPage{
+	background-color: #5f6266;
+	color: white;
+}
+#pens{
+  overflow:auto;
+	background-color: #5f6266;
+	color: white;
+	
+	font-family: 'Dosis', sans-serif;
+}
+.cursor{
+	cursor: pointer;
+}
+.big{
+	font-size: 45px;
+	font-family: 'Khand', sans-serif;
+	margin-left: 2%;
+}
+.profilePic{
+	width: 350px;
+  padding: 50px;
+}
+.page{
+  overflow:auto;
+
+	font-family: 'Dosis', sans-serif;
+}
+.skillz{
+	font-size: 25px;
+}
+.margins{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.pen{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.lineColor{
+	border: 1px solid #adadad;
+}
+.buffer{
+  height: 75px;
+  border: 1px solid black;
+}
