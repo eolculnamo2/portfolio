@@ -68,3 +68,21 @@ header{
   height: 75px;
   border: 1px solid black;
 }
+
+@media screen and (max-width: 480px) {
+  header{
+	margin-top: 30%;
+}
+  nav{
+	background-color: #f9aa43;
+	font-family: 'Khand', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 85px;
+    font-size: 15px;
+}
+
+}
