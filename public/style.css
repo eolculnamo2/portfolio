@@ -6,6 +6,10 @@ a:hover{
 	color: #ffbc2d;
 	cursor: pointer;
 }
+input{
+  padding: 10px;
+  border-radius: 5px;
+}
 nav{
 	background-color: #f9aa43;
 	font-family: 'Khand', sans-serif;
@@ -20,8 +24,9 @@ nav{
 	height: 60px;
 }
 header{
-	margin-top: 5%;
+	margin-top: 7%;
 }
+
 #aboutPage{
 	background-color: #5f6266;
 	color: white;
@@ -33,8 +38,14 @@ header{
 	
 	font-family: 'Dosis', sans-serif;
 }
+#contPage{
+  background-color: #696c70;
+}
 .cursor{
 	cursor: pointer;
+}
+.nonA:hover{
+  color: black !important;
 }
 .big{
 	font-size: 45px;
@@ -68,7 +79,21 @@ header{
   height: 75px;
   border: 1px solid black;
 }
-
+.submBut{
+  width: 150px;
+  background-color: #f9aa43;
+  border: 1px solid #f9aa43;
+  padding: 5px;
+  border-radius: 10px;
+}
+.contText{
+  	font-family: 'Dosis', sans-serif;
+  color: white;
+}
+.marginTop{
+  color: white;
+  margin-top: 65px
+}
 @media screen and (max-width: 480px) {
   header{
 	margin-top: 30%;
@@ -84,5 +109,8 @@ header{
     height: 85px;
     font-size: 15px;
 }
-
+.marginTop{
+  color: white;
+  margin-top: 85px
+}
 }
